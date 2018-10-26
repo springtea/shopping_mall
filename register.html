@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel = "stylesheet" type="text/css" href="./css/shopping.css"/>
+   
+</head>
+<body>
+	<div id="wrapper">
+	<div id="nav" >
+		<div id="nav_top">
+			<ul >
+				<li class="toplist" ><div id="icon1"></div><p><a href="cart.html">购物车</a></p></li>
+				<li class="toplist" ><div id="icon2"></div><p><a href="help1.html">帮助中心</a></p></li>
+				<li class="toplist" ><div id="icon3"></div><p><a href="#">加入收藏</a></p></li>
+				<li class="toplist" ><div id="icon4"></div><p><a href="#">设为首页</a></p></li>
+				<li class="toplist" ><div ></div><a href="login.html" id="icon5">登录</a></li>
+				<li class="toplist" ><div ></div><a href="register.html" id="icon6">注册</a></li>
+			</ul>
+		</div>
+		<div id="nav_bot">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="goods_list.html">家用电器</a></li>
+				<li><a href="detail.html">手机数码</a></li>
+				<li><a href="#">日用百货</a></li>
+				<li><a href="#">书籍</a></li>
+				<li><a href="help1.html">帮助中心</a></li>
+				<li><a href="#">免费开店</a></li>
+				<li><a href="#">全球咨询</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- middle -->
+
+	<div id="mid">
+		<div id="mid_left">
+			<form method="post" action="#">
+				<span class="form_left">名字：</span>
+				<input type="text" name = "name" size="24"/>
+				<span class="form_left">姓氏：</span>
+				<input type="text" name = "name" size="24"/>
+				<span class="form_left">登录名：</span>
+				<input type="text" name = "name" size="24"/>（可包含a-z、0-9和下划线）
+				<span class="form_left">密码：</span>
+				<input type="password" name = "password" size="24"/>（至少包含6个字符）
+				<span class="form_left">再次输入密码：</span>
+				<input type="password" name = "repassword" size="24"/>
+				<span class="form_left">电子邮箱：</span>
+				<input type="text" name = "e_mail" size="24"/>（必须包含@字符）
+				<span class="form_left">性别：</span>
+				<input type="radio" checked="checked" name="sex" value="male"/><img src="./images/Male.gif" title="male" alt="male">男
+				<input type="radio" name="sex" value="female"/><img src="./images/Female.gif" title="female" alt="female">女
+				<p class="form_left" id="imgLoad">头像：<input type="file"></p>
+				<span class="form_left">爱好：</span>
+				<input type="checkbox" name="hobby" value="sports">运动
+				<input type="checkbox" name="hobby" value="sports">聊天
+				<input type="checkbox" name="hobby" value="sports">玩游戏
+				<span class="form_left" id="birthday">出生日期：
+				<select name = "year">
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+				</select>年
+				<select name = "month">
+					<option value="13">13</option>
+					<option value="14">14</option>
+				</select>月
+				<select name = "day">
+					<option value="32">32</option>
+					<option value="33">33</option>
+				</select>日
+				</span>
+				<input type="button"  id="register_submit">
+				<input type="button"  id="register_reset">
+			</form>
+		</div>
+		<div id="mid_right">
+			<p>阅读贵美网服务协议</p>	
+			<textarea rows="30" cols="30">欢迎阅读服务条款协议，本协议阐述之条款和条件适用于您使用Gmgw.com网站的各种工具和服务。
+
+  本服务协议双方为贵美与贵美网用户，本服务协议具有合同效力。 
+  贵美的权利和义务
+    1.贵美有义务在现有技术上维护整个网上交易平台的正常运行，并努力提升和改进技术，使用户网上交易活动的顺利。 
+    2.对用户在注册使用贵美网上交易平台中所遇到的与交易或注册有关的问题及反映的情况，贵美应及时作出回复。 
+    3.对于在贵美网网上交易平台上的不当行为或其它任何贵美认为应当终止服务的情况，贵美有权随时作出删除相关信息、终止服务提供等处理，而无须征得用户的同意。 
+    4.因网上交易平台的特殊性，贵美没有义务对所有用户的注册资料、所有的交易行为以及与交易有关的其他事项进行事先审查。 	
+				   	
+			</textarea>
+		</div>
+	</div>
+
+	<!-- bottom -->
+
+	<div id="bottom">
+		<div id="bottom_center">
+		<ul><li><a href="#"><span>友情链接：</span>百度</a></li>
+		<li><a href="#">Google</a></li>
+		<li><a href="#">雅虎</a></li>
+		<li><a href="#">淘宝</a></li>
+		<li><a href="#">拍拍</a></li>
+		<li><a href="#">易趣</a></li>
+		<li><a href="#">当当</a></li>
+		<li><a href="#">京东商城</a></li>
+		<li><a href="#">迅雷</a></li>
+		<li><a href="#">新浪</a></li>
+		<li><a href="#">网易</a></li>
+		<li><a href="#">搜狐</a></li>
+		<li><a href="#">猫扑</a></li>
+		<li><a href="#">开心网</a></li>
+		<li><a href="#">新华网</a></li>
+		<li id = "lastli"><a href="#">凤凰网</a></li>
+		</ul>
+		</div>
+		
+		<p id="clearFloat">COPYRIGHT &copy;2003-2010北京市贵美商城有限公司 ALL RIGHT RESERVED</p>
+		<p><span>热线：</span>400-66-13060 Email:service@prd.com</p>
+		<p><span>ICP:</span>沪ICP备05021104号</p>
+		<p>
+			<image src="./images/img1.gif" alt="img" title="goods"></image>
+			<image src="./images/img2.gif" alt="img" title="goods"></image>
+			<image src="./images/img3.gif" alt="img" title="goods"></image>
+			<image src="./images/img4.gif" alt="img" title="goods"></image>
+		</p>
+	</div>
+	</div>
+</body>
+</html>
